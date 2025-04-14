@@ -14,5 +14,15 @@ trained for a specific dialect. Subsequently, the outputs of these experts are c
 the final output. Due to the similarities among dialects, distinct experts may offer assistance in
 recognizing other dialects as well. Experimental results on the Datatang dialect public dataset
 show that, compared with the baseline model, DialectMoE reduces Character Error Rate (CER)
-for Sichuan, Yunnan, Hubei and Henan dialects by 23.6%, 32.6%, 39.2% and 35.09% respectively. The proposed DialectMoE model demonstrates outstanding performance in multi-dialects
+for Sichuan, Yunnan, Hubei and Henan dialects by 23.6%, 32.6%, 39.2% and 35.09% respectively. The proposed DialectMoE model demonstrates outstanding performance in multi-dialects
 speech recognition.
+
+## Install
+
+```bash
+pip install -r requirements.txt
+```
+
+## Train and Test
+
+Training files refer to `./train.py` and `./executor.py`. Training related configuration file reference `./conf`.
